@@ -1,0 +1,15 @@
+POST http://localhost:3500/todo
+Content-Type: application/json
+
+{
+   "todo":"game"
+}
+###
+
+GET  http://localhost:3500/todo
+Content-Type: application/json
+
+
+###
+delete http://localhost:3500/todo/669f5243566d8bb42532bc20
+Content-Type: application/json

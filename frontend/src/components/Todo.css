@@ -1,0 +1,93 @@
+/* Todo.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.body {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.flex-item {
+  margin: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#input {
+  width: 300px;
+  
+}
+
+#button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100px;
+  
+}
+
+#button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b9b6b6;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: larger;
+}
+
+li:hover {
+  background-color: #f1b0b7;
+  transform: scale(1.02);
+}
+
+li button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color:black;
+  color:#ccc;
+}
+
+li + li {
+  margin-top: 10px;
+}
